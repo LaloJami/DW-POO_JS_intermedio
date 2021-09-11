@@ -338,3 +338,7 @@ ejemplo : árboles.
 * Cuando los métodos usen arreglos largos.
 * Cuando el método cambia de manera impredecible de campos.
 * Cuando las iteraciones sean la mejor opción.
+
+## Deep copy con recursividad
+
+
