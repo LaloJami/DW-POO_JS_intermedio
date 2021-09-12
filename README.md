@@ -339,6 +339,6 @@ ejemplo : árboles.
 * Cuando el método cambia de manera impredecible de campos.
 * Cuando las iteraciones sean la mejor opción.
 
-## Deep copy con recursividad
-
+## Duck typing
+es la forma de progamar donde identificamos a nuestros elementos dependiendo de los métodos y atributos que tengan por dentro.
 
