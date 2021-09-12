@@ -342,3 +342,9 @@ ejemplo : árboles.
 ## Duck typing
 es la forma de progamar donde identificamos a nuestros elementos dependiendo de los métodos y atributos que tengan por dentro.
 
+lectures recomender
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+* https://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript
+* https://igorluczko.medium.com/the-new-keyword-in-javascript-f448b932eea8
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
