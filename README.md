@@ -348,3 +348,5 @@ lectures recomender
 * https://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript
 * https://igorluczko.medium.com/the-new-keyword-in-javascript-f448b932eea8
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
+
+## Atributos y métodos privados en prototipos
