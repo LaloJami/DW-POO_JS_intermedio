@@ -80,22 +80,32 @@ function createStudent(
             instagram,
             facebook,
         },
-        readName(){
+        // readName(){
+        //     return private["_name"];
+        // },
+        // changeName(newName){
+        //     private["_name"].name = newName
+        // },
+        get name(){
             return private["_name"];
         },
-        changeName(newName){
-            private["_name"].name = newName
-        },
+        set name(newName){
+            if(newName.length != 0){
+                return private["_name"] = newName;
+            } else {
+                console.warn("Tu nombre debe tener al menos un caracter")
+            }
+        }
     };
 
-    Object.defineProperty(public, "readName", {
-        configurable: false,
-        writable: false,
-    });
-    Object.defineProperty(public, "changeName", {
-        configurable: false,
-        writable: false,
-    })
+    // Object.defineProperty(public, "readName", {
+    //     configurable: false,
+    //     writable: false,
+    // });
+    // Object.defineProperty(public, "changeName", {
+    //     configurable: false,
+    //     writable: false,
+    // })
 
     return public;
 }
@@ -110,3 +120,5 @@ const juan  = createStudent({
     name: "Juanito",
     email: "jdc@gmail.com"
 });
+
+// juan.name = "Juaaaaan";
